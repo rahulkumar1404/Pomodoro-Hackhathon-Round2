@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boded-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #272343;
+    font-family: "Pacifico", cursive;
+}
+
+.heading {
+    color: #ffff;
+}
+
+.timer {
+    color: #ffff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid #fff;
+    border: 5px solid #ffff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.btn {
+    padding: 0;
+}
+
+.fa-play,
+.fa-redo-alt {
+    color: #e3f6f5;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+    color: #bae8e8;
+    border: 2px solid #bae8e8;
+    transition: 0.3s ease;
+}
+
+.show_message {
+    display: block;
+    padding: 1rem 0;
+    color: #272343;
+    background: #e3f6f5;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
+
+footer {
+    background: #111;
+    padding: 0.938rem 1.438rem;
+    color: white;
+    text-align: center;
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@media (max-width: 1104px) {
+    html {
+        font-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        bottom: -100rem;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 100%;
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        bottom: -500rem;
+    }
+}
+
+@media (max-width: 690px) {
+    html {
+        font-size: 90%;
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+    }
+    footer {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        width: 100%;
+    }
+    h1 {
+        font-size: 175%;
+    }
+    footer {
+        bottom: 0;
+    }
+}
